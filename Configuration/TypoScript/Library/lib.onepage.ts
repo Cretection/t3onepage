@@ -23,8 +23,8 @@ lib.onepage {
 						key.field = doktype
 						default = TEXT
 						default {
-							typolink.parameter = #{field:css_id}
-							typolink.parameter.insertData = 1
+							typolink.parameter.data = TSFE:id
+							typolink.section.field = css_id
 
 							field = nav_title
 							ifEmpty.field = title
